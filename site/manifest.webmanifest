@@ -1,0 +1,10 @@
+{
+  "name": "The San Diego List",
+  "short_name": "SD List",
+  "description": "A living field guide to eating and drinking across San Diego County.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#1b4965",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
