@@ -1,0 +1,283 @@
+{
+  "333 Pacific Oceanside": {
+    "lat": 33.194967,
+    "lng": -117.3836598,
+    "display": "333 Pacific, 333, North Pacific Street, Oceanside, San Diego County, California, 92054, United States",
+    "type": "restaurant",
+    "name": "333 Pacific"
+  },
+  "Aeroclub Bar India Street San Diego": null,
+  "Alesmith Brewing Company San Diego": {
+    "lat": 32.888169,
+    "lng": -117.149643,
+    "display": "AleSmith Brewing Company, 9990, AleSmith Court, Miramar, San Diego, San Diego County, California, 92126, United States",
+    "type": "brewery",
+    "name": "AleSmith Brewing Company"
+  },
+  "Altitude Sky Lounge San Diego": null,
+  "Anigma Encinitas": null,
+  "Anita's on El Camino San Marcos": null,
+  "Anita's on the PCH Oceanside": null,
+  "Bar Moxy San Diego": null,
+  "Belle Marie Winery Escondido": null,
+  "Bencoto Little Italy San Diego": null,
+  "Born and Raised San Diego": null,
+  "Botanica San Diego": {
+    "lat": 32.7483337,
+    "lng": -117.1262521,
+    "display": "Botanica Art & Cocktails, 3139, University Avenue, Corridor, North Park, San Diego, San Diego County, California, 92104, United States",
+    "type": "bar",
+    "name": "Botanica Art & Cocktails"
+  },
+  "Bravo Italian Catering San Diego": null,
+  "Buena Creek Food Trucks San Diego": null,
+  "Burger Bench Escondido": {
+    "lat": 33.1224357,
+    "lng": -117.0790927,
+    "display": "Burger Bench, 237, East Grand Avenue, Downtown, Old Escondido, Escondido, San Diego County, California, 92025, United States",
+    "type": "food",
+    "name": "Burger Bench"
+  },
+  "Cafe Sevilla Gaslamp San Diego": null,
+  "Cannonball San Diego": null,
+  "Casero Taqueria San Diego": {
+    "lat": 33.1279278,
+    "lng": -117.2529163,
+    "display": "Casero Taqueria, 2674, Gateway Road, Bressi Ranch, Carlsbad, San Diego County, California, 92009, United States",
+    "type": "restaurant",
+    "name": "Casero Taqueria"
+  },
+  "Chick & Hawk Encinitas": {
+    "lat": 33.0644802,
+    "lng": -117.3007104,
+    "display": "Chick & Hawk, 145, Leucadia Boulevard, Leucadia, Encinitas, San Diego County, California, 92024, United States",
+    "type": "fast_food",
+    "name": "Chick & Hawk"
+  },
+  "Cocina del Charro San Diego": {
+    "lat": 33.1356659,
+    "lng": -117.1888664,
+    "display": "Cocina Del Charro, 1020-50, West San Marcos Boulevard, Creek District, San Marcos, San Diego County, California, 92078, United States",
+    "type": "restaurant",
+    "name": "Cocina Del Charro"
+  },
+  "Convoy Music Bar San Diego": null,
+  "Corner Pizza Leucadia": null,
+  "Draft Republic San Marcos": {
+    "lat": 33.1358781,
+    "lng": -117.1586022,
+    "display": "Draft Republic San Marcos, 255, Central Park Place, North City, San Marcos, San Diego County, California, 92078, United States",
+    "type": "restaurant",
+    "name": "Draft Republic San Marcos"
+  },
+  "El Pueblo Carlsbad": null,
+  "Especial Norte Leucadia": {
+    "lat": 33.0612028,
+    "lng": -117.3013942,
+    "display": "La Especial Norte, 664, North Coast Highway, Leucadia, Encinitas, San Diego County, California, 92924, United States",
+    "type": "restaurant",
+    "name": "La Especial Norte"
+  },
+  "Fay's Diner San Diego": {
+    "lat": 32.9031368,
+    "lng": -117.099965,
+    "display": "Fay's Diner & Cafe, 10006, Scripps Ranch Boulevard, Scripps Ranch, San Diego, San Diego County, California, 92131, United States",
+    "type": "cafe",
+    "name": "Fay's Diner & Cafe"
+  },
+  "Fay's Diner Scripps Ranch": {
+    "lat": 32.9031368,
+    "lng": -117.099965,
+    "display": "Fay's Diner & Cafe, 10006, Scripps Ranch Boulevard, Scripps Ranch, San Diego, San Diego County, California, 92131, United States",
+    "type": "cafe",
+    "name": "Fay's Diner & Cafe"
+  },
+  "Fidel's Solana Beach": {
+    "lat": 32.9891328,
+    "lng": -117.2590263,
+    "display": "Fidel's Little Mexico, 749, Genevieve Street, Eden Gardens, Solana Beach, San Diego County, California, 92075, United States",
+    "type": "restaurant",
+    "name": "Fidel's Little Mexico"
+  },
+  "Haggos Tacos Leucadia": null,
+  "Hamburger Hut Leucadia": {
+    "lat": 33.0596038,
+    "lng": -117.3003948,
+    "display": "Hamburger Hut, North Coast Highway, Leucadia, Encinitas, San Diego County, California, 92924, United States",
+    "type": "fast_food",
+    "name": "Hamburger Hut"
+  },
+  "Harbor Fish Cafe Carlsbad": {
+    "lat": 33.1556942,
+    "lng": -117.3511181,
+    "display": "Harbor Fish Cafe, 3179, Carlsbad Boulevard, Downtown Carlsbad, Carlsbad Village, Olde Carlsbad, Carlsbad, San Diego County, California, 92008, United States",
+    "type": "restaurant",
+    "name": "Harbor Fish Cafe"
+  },
+  "Hasta Mana Cantina San Diego": null,
+  "HFS Poway San Diego": null,
+  "High Low Oceanside": null,
+  "Honor Bar Del Mar": null,
+  "Jake's Del Mar": {
+    "lat": 32.9619093,
+    "lng": -117.2680084,
+    "display": "Jake's, 1660, Coast Boulevard, Beach Colony, Del Mar, San Diego County, California, 92014, United States",
+    "type": "restaurant",
+    "name": "Jake's"
+  },
+  "Keys Creek Winery Pauma Valley": null,
+  "Ki's Cardiff": {
+    "lat": 33.0123175,
+    "lng": -117.2791102,
+    "display": "Ki's, South Coast Highway, Cardiff-by-the-Sea, Encinitas, San Diego County, California, 92007, United States",
+    "type": "restaurant",
+    "name": "Ki's"
+  },
+  "La Perla Tapatia Oceanside": null,
+  "Lana Solana Beach": null,
+  "Las Olas Cardiff": {
+    "lat": 33.0112153,
+    "lng": -117.2788793,
+    "display": "Las Olas, South Coast Highway, Cardiff-by-the-Sea, Encinitas, San Diego County, California, 92007, United States",
+    "type": "restaurant",
+    "name": "Las Olas"
+  },
+  "Leu Leu Leucadia": null,
+  "Little Kiki Carlsbad": null,
+  "Marisi San Diego": {
+    "lat": 32.8470859,
+    "lng": -117.273519,
+    "display": "Marisi, Herschel Avenue, Village of La Jolla, La Jolla, San Diego, San Diego County, California, 92037, United States",
+    "type": "restaurant",
+    "name": "Marisi"
+  },
+  "Mister A's San Diego": {
+    "lat": 32.7317803,
+    "lng": -117.1607472,
+    "display": "Mister A’s, 2250, 5th Avenue, Banker's Hill, San Diego, San Diego County, California, 92103, United States",
+    "type": "restaurant",
+    "name": "Mister A’s"
+  },
+  "Night Hawk at Baby Grand Coronado": null,
+  "Norte Mexican Food Carlsbad": {
+    "lat": 33.1575266,
+    "lng": -117.3516528,
+    "display": "Norte Mexican Food & Cocktails, 3003, Carlsbad Boulevard, Downtown Carlsbad, Carlsbad Village, Olde Carlsbad, Carlsbad, San Diego County, California, 92008, United States",
+    "type": "restaurant",
+    "name": "Norte Mexican Food & Cocktails"
+  },
+  "Odie's Pizza Oceanside": {
+    "lat": 33.1947565,
+    "lng": -117.3811252,
+    "display": "Odie's Pizza, 121, North Cleveland Street, Oceanside, San Diego County, California, 92054, United States",
+    "type": "restaurant",
+    "name": "Odie's Pizza"
+  },
+  "Pacific Coast Grill Cardiff": {
+    "lat": 33.0135681,
+    "lng": -117.280391,
+    "display": "Pacific Coast Grill, 2526, South Coast Highway 101, Cardiff-by-the-Sea, Encinitas, San Diego County, California, 92007, United States",
+    "type": "restaurant",
+    "name": "Pacific Coast Grill"
+  },
+  "Part Time Lover San Diego": {
+    "lat": 32.7479249,
+    "lng": -117.129838,
+    "display": "Part Time Lover, 3829, 30th Street, Altadena, North Park, San Diego, San Diego County, California, 92104, United States",
+    "type": "bar",
+    "name": "Part Time Lover"
+  },
+  "Pastaria Vivi Encinitas": null,
+  "Peterson's Donut Corner San Diego": {
+    "lat": 33.1129026,
+    "lng": -117.0791743,
+    "display": "Peterson's Donut Corner, South Escondido Boulevard, Felicita, Escondido, San Diego County, California, 92025, United States",
+    "type": "confectionery",
+    "name": "Peterson's Donut Corner"
+  },
+  "Premier Pub San Diego": null,
+  "Pure Project Vista": null,
+  "Quixote San Diego": {
+    "lat": 32.5778968,
+    "lng": -117.0602964,
+    "display": "Caminito Quixote, Otay Mesa West, San Diego, San Diego County, California, 92154, United States",
+    "type": "residential",
+    "name": "Caminito Quixote"
+  },
+  "Raised by Wolves San Diego": {
+    "lat": 32.8720818,
+    "lng": -117.2128406,
+    "display": "Raised by Wolves, 4301, La Jolla Village Drive, Costa Verde, Golden Triangle, University City, San Diego, San Diego County, California, 92122, United States",
+    "type": "bar",
+    "name": "Raised by Wolves"
+  },
+  "Realm of the 52 Entities San Diego": null,
+  "Rustic Root Solana Beach": null,
+  "Sago Encinitas": {
+    "lat": 33.0461635,
+    "lng": -117.2936758,
+    "display": "SAGO, 485, South Coast Highway, Downtown Encinitas, Encinitas, San Diego County, California, 92924, United States",
+    "type": "restaurant",
+    "name": "SAGO"
+  },
+  "Seneca Trattoria San Diego": {
+    "lat": 32.7161644,
+    "lng": -117.1719155,
+    "display": "Seneca Trattoria, 901, Bayfront Court, Core-Columbia, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "type": "restaurant",
+    "name": "Seneca Trattoria"
+  },
+  "Shelter Encinitas": null,
+  "Stratford Court Cafe Del Mar": {
+    "lat": 32.9575344,
+    "lng": -117.265347,
+    "display": "Stratford Court Cafe, 1307, Stratford Court, Del Mar Bluffs, Del Mar, San Diego County, California, 92014, United States",
+    "type": "restaurant",
+    "name": "Stratford Court Cafe"
+  },
+  "Tanner's Prime Oceanside": {
+    "lat": 33.172663,
+    "lng": -117.35921,
+    "display": "Tanner's Prime Burgers, 510, South Freeman Street, Escondido Junction, South Oceanside, Oceanside, San Diego County, California, 92054, United States",
+    "type": "fast_food",
+    "name": "Tanner's Prime Burgers"
+  },
+  "The Camp Store South Carlsbad State Beach": null,
+  "The Friendly San Diego": {
+    "lat": 32.8255769,
+    "lng": -117.1542246,
+    "display": "The Friendly, 4681, Convoy Street, Convoy District, Kearny Mesa, San Diego, San Diego County, California, 92111, United States",
+    "type": "fast_food",
+    "name": "The Friendly"
+  },
+  "The Lafayette Hotel San Diego": {
+    "lat": 32.7548642,
+    "lng": -117.1407354,
+    "display": "The Lafayette Hotel, Swim Club & Bungalows, 2223, El Cajon Boulevard, University Heights, North Park, San Diego, San Diego County, California, 92104, United States",
+    "type": "hotel",
+    "name": "The Lafayette Hotel, Swim Club & Bungalows"
+  },
+  "The Lighthouse Oceanside Harbor": null,
+  "The Nolen San Diego": null,
+  "Tiki Bar Little Italy San Diego": null,
+  "TJ Tacos Escondido": {
+    "lat": 33.1283246,
+    "lng": -117.0725055,
+    "display": "TJ Tacos, 802, East Valley Parkway, Mission Park, East Valley, Escondido, San Diego County, California, 92025, United States",
+    "type": "restaurant",
+    "name": "TJ Tacos"
+  },
+  "Treehouse Del Mar": null,
+  "Trevi Winery San Diego": null,
+  "Twin Oaks Valley Winery San Marcos": null,
+  "Vigilucci's Seafood and Steakhouse Carlsbad": null,
+  "Vintana Wine & Dine Escondido": null,
+  "Wolfie's Carousel Bar San Diego": null,
+  "Wormwood San Diego": {
+    "lat": 32.7624813,
+    "lng": -117.130053,
+    "display": "Wormwood, 30th Street, Normal Heights, San Diego, San Diego County, California, 92116, United States",
+    "type": "restaurant",
+    "name": "Wormwood"
+  }
+}

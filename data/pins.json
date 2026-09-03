@@ -1,0 +1,18 @@
+{
+  "_comment": "Hand-placed coordinates that override the geocoder, keyed by the Google Maps query in Restaurants.md.",
+  "The Friendly San Diego": { "lat": 32.7592, "lng": -117.1297, "why": "The list says near Balboa Park, i.e. the North Park location on 30th St." },
+  "Tiki Bar Little Italy San Diego": { "lat": 32.7237, "lng": -117.1686, "why": "Little Italy" },
+  "Bencoto Little Italy San Diego": { "lat": 32.7237, "lng": -117.1686, "why": "Little Italy" },
+  "Aeroclub Bar India Street San Diego": { "lat": 32.7370, "lng": -117.1720, "why": "India Street, Middletown" },
+  "Bar Moxy San Diego": { "lat": 32.7117, "lng": -117.1605, "why": "Gaslamp" },
+  "Cafe Sevilla Gaslamp San Diego": { "lat": 32.7117, "lng": -117.1605, "why": "Gaslamp" },
+  "Altitude Sky Lounge San Diego": { "lat": 32.7098, "lng": -117.1600, "why": "Marriott Gaslamp" },
+  "Night Hawk at Baby Grand Coronado": { "lat": 32.6859, "lng": -117.1831, "why": "Orange Ave, Coronado" },
+  "HFS Poway San Diego": { "lat": 32.9628, "lng": -117.0359, "why": "Poway" },
+  "Premier Pub San Diego": { "lat": 32.9595, "lng": -117.1150, "why": "Rancho Peñasquitos" },
+  "Convoy Music Bar San Diego": { "lat": 32.8280, "lng": -117.1550, "why": "Convoy District" },
+  "Hasta Mana Cantina San Diego": { "lat": 32.7157, "lng": -117.1611, "why": "Downtown" },
+  "The Camp Store South Carlsbad State Beach": { "lat": 33.1060, "lng": -117.3200, "why": "South Carlsbad State Beach" },
+  "The Lighthouse Oceanside Harbor": { "lat": 33.2050, "lng": -117.3900, "why": "Oceanside Harbor" },
+  "High Low Oceanside": { "lat": 33.1935, "lng": -117.3860, "why": "Oceanside pier" }
+}

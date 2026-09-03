@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The San Diego List</title>
+  <meta name="description" content="A living field guide to eating and drinking across San Diego County: __TOTAL__ restaurants, bars, rooftops and patios, __VISITED__ crossed off so far." />
+  <meta name="theme-color" content="#f6f1e8" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f141c" media="(prefers-color-scheme: dark)" />
+  <meta property="og:title" content="The San Diego List" />
+  <meta property="og:description" content="__TOTAL__ places to eat and drink from Oceanside to Coronado. __VISITED__ down, the rest to go." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#collections">Skip to the list</a>
+
+  <header class="hero" id="top">
+    <div class="sky" id="sky" aria-hidden="true">
+      <div class="stars"></div>
+      <div class="sun" id="sun"></div>
+      <svg class="scene" viewBox="0 0 1440 520" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="var(--water-top)" />
+            <stop offset="1" stop-color="var(--water-bottom)" />
+          </linearGradient>
+          <path id="wave" d="M0 8 Q 30 0 60 8 T 120 8 T 180 8 T 240 8 T 300 8 T 360 8 T 420 8 T 480 8 T 540 8 T 600 8 T 660 8 T 720 8 T 780 8 T 840 8 T 900 8 T 960 8 T 1020 8 T 1080 8 T 1140 8 T 1200 8 T 1260 8 T 1320 8 T 1380 8 T 1440 8 T 1500 8 T 1560 8 T 1620 8 T 1680 8 T 1740 8 T 1800 8" fill="none" stroke="var(--wave)" stroke-width="2" stroke-linecap="round" />
+        </defs>
+        <!-- far hills -->
+        <path class="hills" d="M0 350 C 120 300 220 320 320 305 S 520 260 640 300 S 800 330 900 310 S 1060 250 1180 290 S 1360 330 1440 300 V 360 H 0 Z" />
+        <!-- ocean -->
+        <rect x="0" y="352" width="1440" height="170" fill="url(#waterGrad)" />
+        <g class="waves">
+          <use href="#wave" class="wave w1" y="372" />
+          <use href="#wave" class="wave w2" y="404" />
+          <use href="#wave" class="wave w3" y="446" />
+        </g>
+        <!-- the pier -->
+        <g class="silhouette pier">
+          <rect x="0" y="336" width="600" height="8" rx="1" />
+          <rect x="0" y="331" width="600" height="2" />
+          <g class="pilings">
+            <rect x="40" y="344" width="4" height="60" /><rect x="100" y="344" width="4" height="60" /><rect x="160" y="344" width="4" height="60" />
+            <rect x="220" y="344" width="4" height="60" /><rect x="280" y="344" width="4" height="60" /><rect x="340" y="344" width="4" height="60" />
+            <rect x="400" y="344" width="4" height="60" /><rect x="460" y="344" width="4" height="60" /><rect x="520" y="344" width="4" height="60" /><rect x="580" y="344" width="4" height="60" />
+          </g>
+          <!-- railing -->
+          <g class="railing">
+            <rect x="0" y="322" width="600" height="1.5" />
+            <rect x="20" y="322" width="1.5" height="14" /><rect x="60" y="322" width="1.5" height="14" /><rect x="100" y="322" width="1.5" height="14" />
+            <rect x="140" y="322" width="1.5" height="14" /><rect x="180" y="322" width="1.5" height="14" /><rect x="220" y="322" width="1.5" height="14" />
+            <rect x="260" y="322" width="1.5" height="14" /><rect x="300" y="322" width="1.5" height="14" /><rect x="340" y="322" width="1.5" height="14" />
+            <rect x="380" y="322" width="1.5" height="14" /><rect x="420" y="322" width="1.5" height="14" /><rect x="460" y="322" width="1.5" height="14" />
+          </g>
+          <!-- the building at the end -->
+          <path d="M498 336 V 300 H 560 V 336 Z" />
+          <path d="M492 302 L 529 280 L 566 302 Z" />
+          <rect x="522" y="270" width="3" height="14" />
+          <!-- lamp posts -->
+          <rect x="240" y="304" width="2" height="32" /><circle cx="241" cy="302" r="3" />
+          <rect x="420" y="304" width="2" height="32" /><circle cx="421" cy="302" r="3" />
+        </g>
+        <!-- foreground dune -->
+        <path class="silhouette dune" d="M760 520 C 900 470 1080 468 1200 480 S 1400 470 1440 460 V 520 Z" />
+        <!-- palms -->
+        <g class="silhouette palm" transform="translate(1180 482)">
+          <path d="M0 0 C 4 -60 10 -120 26 -190" stroke="var(--silhouette)" stroke-width="7" fill="none" stroke-linecap="round" />
+          <g transform="translate(26 -190)">
+            <path d="M0 0 C 20 -40 60 -60 110 -50 C 70 -40 40 -20 0 0Z" />
+            <path d="M0 0 C 40 -20 90 -10 120 20 C 80 5 40 5 0 0Z" />
+            <path d="M0 0 C -20 -40 -70 -50 -110 -30 C -70 -30 -30 -15 0 0Z" />
+            <path d="M0 0 C -40 -5 -90 20 -100 60 C -70 30 -30 15 0 0Z" />
+            <path d="M0 0 C 30 10 70 40 80 80 C 50 50 20 25 0 0Z" />
+            <path d="M0 0 C -10 -50 10 -90 40 -100 C 20 -70 10 -40 0 0Z" />
+            <circle cx="0" cy="4" r="6" />
+          </g>
+        </g>
+        <g class="silhouette palm" transform="translate(1330 500) scale(.8)">
+          <path d="M0 0 C -6 -70 -14 -130 -30 -200" stroke="var(--silhouette)" stroke-width="8" fill="none" stroke-linecap="round" />
+          <g transform="translate(-30 -200)">
+            <path d="M0 0 C 20 -40 60 -60 110 -50 C 70 -40 40 -20 0 0Z" />
+            <path d="M0 0 C 40 -20 90 -10 120 20 C 80 5 40 5 0 0Z" />
+            <path d="M0 0 C -20 -40 -70 -50 -110 -30 C -70 -30 -30 -15 0 0Z" />
+            <path d="M0 0 C -40 -5 -90 20 -100 60 C -70 30 -30 15 0 0Z" />
+            <path d="M0 0 C 30 10 70 40 80 80 C 50 50 20 25 0 0Z" />
+            <path d="M0 0 C -10 -50 10 -90 40 -100 C 20 -70 10 -40 0 0Z" />
+            <circle cx="0" cy="4" r="6" />
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <div class="masthead">
+      <div class="masthead-top">
+        <a class="brand" href="#top">The San Diego List</a>
+        <nav class="topnav" aria-label="Sections">
+          <a href="#map">Map</a>
+          <a href="#collections">The List</a>
+          <a href="#pick">Surprise me</a>
+          <a href="https://github.com/dave92082/san-diego" rel="noopener">GitHub</a>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="theme-icon"></span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="masthead-main">
+        <p class="kicker">A running field guide · Oceanside to Coronado</p>
+        <h1 class="headline">Eat and drink<br /><em>the whole county.</em></h1>
+        <p class="lede">
+          Bartender tips, Reddit threads, friends of friends, and a few places we simply drove past and
+          wrote down. <strong>__TOTAL__ spots.</strong> Working our way through them, one plate at a time.
+        </p>
+        <p class="now" id="now" aria-live="polite">
+          <span class="now-dot"></span><span id="nowText">San Diego, right now</span>
+        </p>
+      </div>
+
+      <div class="masthead-stats">
+        <div class="bignum">
+          <span class="bignum-value">__VISITED__</span>
+          <span class="bignum-of">of __TOTAL__</span>
+        </div>
+        <p class="bignum-label">crossed off so far</p>
+        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="__PERCENT__" aria-label="Visited progress">
+          <span style="width: __PERCENT__%"></span>
+        </div>
+        <a class="scroll-cue" href="#intro" aria-label="Scroll down"><span></span></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="intro wrap" id="intro">
+    <div class="intro-note">
+      <p class="section-label">Editor's note</p>
+      <p class="dropcap">
+        This started as a checklist in a text file and never really stopped being one. Every place on it came
+        from somewhere specific: a bartender in Escondido who insisted on Vintana, a Fox 5 rundown of rooftops,
+        a friend named Mark and his feelings about Cocina del Charro. Nothing here is sponsored, ranked, or
+        reviewed. It's simply where we want to go next.
+      </p>
+      <p>
+        The list lives in a single Markdown file on GitHub. Tick a box there and this page updates itself. The
+        map pins come from OpenStreetMap; where it couldn't find a place, we've dropped the pin on the
+        neighborhood and said so.
+      </p>
+    </div>
+    <aside class="numbers" aria-label="By the numbers">
+      <p class="section-label">By the numbers</p>
+      <ul id="numbers"></ul>
+    </aside>
+  </section>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar-inner">
+      <label class="search">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input type="search" id="q" placeholder="Search places, towns, notes…" autocomplete="off" aria-label="Search" />
+        <kbd>/</kbd>
+      </label>
+      <div class="segment" role="group" aria-label="Visited status">
+        <button type="button" data-status="all" class="is-active">All</button>
+        <button type="button" data-status="todo">To try</button>
+        <button type="button" data-status="done">Been</button>
+      </div>
+      <select id="area" aria-label="Area"><option value="">Everywhere</option></select>
+      <select id="cat" aria-label="Category"><option value="">Every kind</option></select>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <section class="map-section" id="map" aria-label="Map of places">
+    <div class="map-canvas" id="mapCanvas"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <main class="collections wrap" id="collections"></main>
+
+  <section class="pick wrap" id="pick">
+    <p class="section-label">Can't decide?</p>
+    <h2 class="pick-title">Let the list pick <em>tonight's</em> table.</h2>
+    <p class="pick-sub">One unvisited place from whatever's currently filtered above.</p>
+    <button class="btn-spin" id="spin" type="button">Surprise me</button>
+    <div class="reel" id="reel" aria-live="polite"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">The San Diego List</p>
+        <p>Generated from one Markdown file. To add a place or cross one off,
+          <a href="https://github.com/dave92082/san-diego/blob/main/Restaurants.md" rel="noopener">edit Restaurants.md</a>
+          and the site rebuilds itself.</p>
+      </div>
+      <div class="colophon">
+        <p>Type set in Fraunces and Instrument Sans. Map data © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors, tiles by <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a>. Weather from <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a>.</p>
+        <p id="generated"></p>
+      </div>
+    </div>
+  </footer>
+
+  <noscript><p class="wrap">This page needs JavaScript for the map and filters. The plain list is in <a href="https://github.com/dave92082/san-diego/blob/main/Restaurants.md">Restaurants.md</a>.</p></noscript>
+  <script id="data" type="application/json">__DATA__</script>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
