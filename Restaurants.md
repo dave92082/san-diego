@@ -1,16 +1,13 @@
 ## Restaurants/Bars/Breweries/Winerys
 
 - [x] Draft Republic: Local bar w/Shuffleboard and bowling, outdoor area, large inside bar.
-- [ ] Twin Oaks Valley Winery
+- [ ] Twin Oaks Valley Winery (Temporarily Closed/Under Construction)
 - [ ] Alesmith Brewery
 - [ ] Belle Marie Winery
 - [ ] Keys Creek Winery
 - [ ] Peterson's Donut Corner
 - [ ] Vintana - Fine Dining, craft cocktails. Recommended by local bartender in Escondido.
 - [x] TJ Tacos
-- [ ] Port Brewing/The Lost abbey
-- [ ] Wild Barrel brewing company
-- [ ] Landon's: East Meets West
 - [ ] Pure Project Vista - https://www.purebrewing.org/location/vista/
 [https://www.sandiegomagazine.com/food-drink/best-new-restaurants-san-diego-2022/article_6db637c6-7fc9-11ed-967e-0fd6d3666ed4.html](https://www.sandiegomagazine.com/food-drink/best-new-restaurants-san-diego-2022/article_6db637c6-7fc9-11ed-967e-0fd6d3666ed4.html)
 - [x] Buena Creek Food Trucks
