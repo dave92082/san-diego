@@ -381,7 +381,8 @@ img, svg { display: block; max-width: 100%; }
   .masthead { padding-bottom: 42vw; }
   .toolbar { position: static; }
   .count { display: none; }
-  .toolbar select { flex: 1; }
+  .toolbar select { flex: 1 1 0; min-width: 0; }
+  .segment { flex: 1 1 100%; justify-content: center; }
   .search { flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
